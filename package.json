@@ -1,0 +1,27 @@
+{
+  "name": "video-converter-electron",
+  "version": "1.0.0",
+  "description": "Video converter using Electron and FFmpeg library",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/claudiaton?tab=repositories"
+  },
+  "author": "Claudia Ton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/claudiaton?tab=repositories"
+  },
+  "homepage": "https://github.com/claudiaton?tab=repositories",
+  "dependencies": {
+    "electron": "^17.0.0",
+    "electron-progressbar": "^2.0.1",
+    "ffmpeg-static-electron": "^2.0.3",
+    "ffprobe-static-electron": "^2.0.2",
+    "fluent-ffmpeg": "^2.1.2"
+  }
+}
